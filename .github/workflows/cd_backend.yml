@@ -21,4 +21,4 @@ jobs:
           context: .
           file: ./docker/Dockerfile.backend
           push: true
-          tags: tauhidxdoc/monorepo-deployment-docker:${{ github.sha }}
+          tags: tauhidxdoc/todo-app-backend:${{ github.sha }}
